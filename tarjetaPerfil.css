@@ -24,7 +24,7 @@ body{
     border-radius: 100%;
     border: solid;
 }
-
+ 
 .datos{
     background-image: url(imagenes/fondoazul.png);
     background-size: 100% 100%;
@@ -61,14 +61,20 @@ body{
     margin-right: 38%;
     padding: 2%;
     box-shadow: 5px 5px 15px black;
+    transition: transform 0.3s;
 }
 
 .pulsa:hover{
     background-color: lightblue;
+    transform: scale(1.1);
 }
 
 .ilovecss{
     display: flex;
     justify-content: center;
     margin: 5%;
+}
+
+.imagencss{
+    box-shadow: 5px 5px 15px;
 }
